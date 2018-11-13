@@ -4,7 +4,8 @@
 
 void exchange(int *x, int *y){
   int r;
-  r = *x
+
+  r = *x;
   *x = *y;
   *y = r;
 }
